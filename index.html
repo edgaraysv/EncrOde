@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Encriptador</title>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>EncrODE | Encriptador de texto</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); </style>
 </head>
 <body>
-
+    <header>
+        <h1 class="logo"><img src="imagenes/logoEG.png" alt="Logo Edgar Garay"></h1>
+    </header>
+    <div class="sub-header"></div>
+    <main>
+        <section>
+            <textarea id="cadena" placeholder="ingrese el texto" rows="10" cols="45"></textarea>
+            <div><h6 class="informacion">Solo letras minúsculas y sin acentos</h6></div>
+            <div class="botones">
+                <button id="btnEncript">Encriptar</button>
+                <button id="btnDecript">Desencriptar</button>
+            </div>
+        </section>
+        <section class="left-box">
+            <textarea id="Resultado" rows="10" cols="45"></textarea>
+            <button id="btnCopiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por <strong>Edgar Garay</strong> | El Salvador </p>
+    </footer>
+<script src="js/encrypt.js"></script>
 </body>
 </html>

@@ -1,0 +1,122 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #032326;
+    background: #1bba9b;
+}
+header{
+    padding: 5px;
+    background: #ffffff !important;
+}
+.sub-header{
+    padding: 25px 0;
+    background: #ebedee;
+}
+.logo{
+    padding-top: 5px;
+    margin-left: 5px;
+    background: #ffffff;
+}
+img{
+    width: 6%;
+    background: #ffffff;
+}
+main{
+    display: flex;
+    gap: 15px;
+    margin: 0px auto;
+    width: 940px;
+    justify-content: center;
+}
+textarea{
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    resize: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+textarea:focus{
+    outline: none;
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Resultado{
+    font-weight: 800;
+    background-color: #ffffff;
+    background-image: url("../imagenes/candado.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.20);
+}
+.informacion{
+    font-size: 0.8em;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+    gap: 15px;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+#btnEncript{
+    background: #13846e;
+    color: #ffffff;
+}
+#btnEncript:hover{
+    background: #255459;
+}
+#btnEncript:active{
+    transform: scale(0.98);
+}
+#btnDecript{
+    background: #ffffff;
+    color: #032326;
+}
+#btnDecript:hover{
+    background: #ebedee;
+}
+#btnDecript:active{
+    transform: scale(0.98);
+}
+#btnCopiar{
+    margin-top: 31px;
+    background: #13846e;
+    color: #ffffff;
+}
+#btnCopiar:hover{
+    background: #255459;
+}
+#btnCopiar:active{
+    transform: scale(0.98);
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    font-size: 0.8em;
+}
+strong{
+    font-weight: bold;
+}
+
